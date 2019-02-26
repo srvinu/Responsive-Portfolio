@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #839496;
+  text-align: left;
+  background-color: #002B36;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+#gotop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+}
+
+#gotop:hover {
+  background-color: #555;
+}
+header {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #073642;
+    border-radius: 0.3rem;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(209, 152, 78);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(224, 207, 169);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid #bbb;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+  padding: 0px;
+}
+
+.grid-item {
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #839496;
+}
+.grid-container1 {
+  display: grid;
+  grid-row-gap: 10px;
+  grid-template-columns: 400px 980px;;
+  padding: 0px;
+}
+footer {
+  padding: 5px;
+  background: #666;
+  text-align: center;
+  color: white;
+
+}
