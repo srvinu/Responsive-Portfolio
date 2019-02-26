@@ -59,7 +59,6 @@ li a {
   border-right: 1px solid #bbb;
 }
 .container {
-  width: 100%;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -81,7 +80,7 @@ li a {
 .grid-container1 {
   display: grid;
   grid-row-gap: 10px;
-  grid-template-columns: 400px 980px;;
+  grid-template-columns: 400px auto;
   padding: 0px;
 }
 footer {
@@ -89,5 +88,85 @@ footer {
   background: #666;
   text-align: center;
   color: white;
-
+}
+@media only screen and (max-width: 980px) {
+  .grid-container {
+    width: 100%;
+  }
+  .grid-container1 {
+    width: 100%;
+    grid-template-columns: auto auto;
+  }
+  img {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  ul {
+    width: 100%;
+  }
+  li a {
+    width: 100%;
+  }
+  li {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    width: 100%;
+  }
+  .grid-container1 {
+    width: 100%;
+    grid-template-columns: auto auto;
+  }
+  img {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  ul {
+    width: 100%;
+  }
+  li a {
+    width: 100%;
+  }
+  li {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .grid-container {
+    width: 100%;
+  }
+  .grid-container1 {
+    width: 100%;
+    grid-template-columns: auto auto;
+  }
+  img {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  ul {
+    width: 100%;
+  }
+  li a {
+    width: 100%;
+  }
+  li {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
 }
